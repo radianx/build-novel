@@ -1,0 +1,11 @@
+{
+  "name": "build-novel",
+  "version": "1.0.0",
+  "description": "Develop, revise, and prepare novels for publication while preserving the author's canon, voice, and creative freedom.",
+  "author": { "name": "Adrian Sbardella", "url": "https://github.com/radianx" },
+  "homepage": "https://github.com/radianx/build-novel",
+  "repository": "https://github.com/radianx/build-novel",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "keywords": ["writing", "novel", "fiction", "fantasy", "editing", "publishing"]
+}

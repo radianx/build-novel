@@ -1,0 +1,12 @@
+{
+  "name": "build-novel",
+  "description": "Author-led novel development, revision, and publishing.",
+  "owner": { "name": "Adrian Sbardella" },
+  "plugins": [
+    {
+      "name": "build-novel",
+      "source": "./",
+      "description": "Author-led novel development, revision, and publishing."
+    }
+  ]
+}

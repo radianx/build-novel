@@ -1,0 +1,12 @@
+{
+  "name": "build-novel",
+  "interface": { "displayName": "Build Novel" },
+  "plugins": [
+    {
+      "name": "build-novel",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

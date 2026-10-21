@@ -1,0 +1,54 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install optional cover dependency
+        run: python -m pip install Pillow
+      - name: Check bundled utilities
+        run: python -B skills/build-novel/scripts/self_check.py
+      - name: Check distribution
+        run: python scripts/check_distribution.py
+      - name: Build archives
+        run: |
+          mkdir -p dist
+          python -m zipfile -c dist/build-novel-skill.zip skills/build-novel
+          python -m zipfile -c dist/build-novel-plugin.zip .claude-plugin .codex-plugin .agents skills assets LICENSE README.md DISTRIBUTION.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-novel-packages
+          path: dist/*.zip
+
+  release:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-novel-packages
+          path: dist
+      - name: Publish a new version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          version="$(python3 -c 'import json; print(json.load(open(".codex-plugin/plugin.json"))["version"])')"
+          if gh release view "v$version" >/dev/null 2>&1; then
+            exit 0
+          fi
+          gh release create "v$version" dist/*.zip --target "$GITHUB_SHA" --title "Build Novel $version" --generate-notes

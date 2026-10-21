@@ -1,0 +1,11 @@
+edition: ""
+trim_size: "6x9"
+bleed: false
+interior_ink: "black"
+paper: ""
+cover_finish: ""
+cover_color_space: "sRGB"
+kindle_cover_pixels: "1600x2560"
+page_count: ""
+printer: ""
+primary_marketplace: ""
