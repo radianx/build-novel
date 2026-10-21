@@ -1,7 +1,7 @@
 ---
 name: build-novel
 license: MIT
-description: Develop, draft, revise, translate, and publish novels or series through an author-led workflow. Use when starting from an idea, ingesting lore or an unfinished manuscript, interviewing an author one question at a time, building canon and worldbuilding, defining themes and characters, creating outlines, drafting or revising chapters, checking continuity and reader experience, preparing translations, or assembling publication metadata, EPUBs, PDFs, Kindle covers, and paperback wraps.
+description: Develop, draft, revise, translate, and publish novels or series of any genre through an author-led workflow that preserves the author's voice and reduces formulaic, AI-sounding prose. Use when starting from an idea, ingesting lore or an unfinished manuscript, interviewing an author one question at a time, building canon and worldbuilding, defining themes and characters, creating outlines, drafting or revising chapters, checking continuity and reader experience, preparing translations, or assembling publication metadata, EPUBs, PDFs, Kindle covers, and paperback wraps.
 ---
 
 # Build Novel

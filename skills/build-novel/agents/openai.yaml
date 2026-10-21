@@ -1,4 +1,4 @@
 interface:
   display_name: "Build Novel"
-  short_description: "Build, revise, translate, and publish novels"
-  default_prompt: "Use $build-novel to develop my novel or series from concept through revised and publication-ready editions."
+  short_description: "Write novels of any genre with your own voice"
+  default_prompt: "Use $build-novel to develop my novel or series from concept through publication, preserving my voice and reducing formulaic, AI-sounding prose."

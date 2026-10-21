@@ -1,8 +1,10 @@
 # Build Novel
 
-An open Agent Skill for developing, drafting, revising, and preparing novels or series for publication. Works in the author's language and keeps the author in control of canon, voice, major choices, and endings.
+An open Agent Skill for developing, writing, revising, and preparing novels or series of **any genre** for publication. It helps preserve the author's voice and reduce generic phrasing, repetitive patterns, and over-explanation that can make prose feel AI-generated.
 
-It includes author interviews, worldbuilding, chapter and scene outlines, continuity checks, simulated reader panels, translation guidance, project templates, and optional publication utilities. Fantasy can stay lyrical, ritualistic, ambiguous, or mysterious: style checks preserve deliberate literary choices, and magic does not need a technical explanation.
+Works in the author's language and keeps the author in control of canon, style, major choices, and endings. Editorial checks adapt to the work's genre and literary intent, preserving deliberate rhythm, imagery, ambiguity, and experimentation.
+
+It includes author interviews, worldbuilding, chapter and scene outlines, continuity checks, simulated reader panels, translation guidance, project templates, and optional publication utilities.
 
 ## Install
 
@@ -64,8 +66,8 @@ After the first successful CI run, [release downloads](https://github.com/radian
 For a standalone installation in Codex:
 
 ```text
-Use $build-novel to help me develop a fantasy novel.
-Ask one consequential question at a time. Keep the magic mysterious.
+Use $build-novel to develop my novel, from idea to revised manuscript.
+Ask one consequential question at a time and preserve my voice.
 ```
 
 In Claude Code, use `/build-novel` for a standalone skill or `/build-novel:build-novel` for the plugin. You can also ask the agent to use Build Novel in ordinary language.
@@ -74,11 +76,11 @@ Existing manuscripts are welcome. Specify the work you want, such as a continuit
 
 ### En español
 
-La skill trabaja en el idioma del autor. Conserva la voz, el canon y la libertad literaria: lirismo, repeticiones rituales, narradores no fiables y magia inexplicable pueden ser decisiones válidas.
+Una skill para desarrollar, escribir, revisar y preparar para publicación novelas y sagas de **cualquier género**. Trabaja en el idioma del autor, cuida su voz y ayuda a evitar frases genéricas, patrones repetitivos y explicaciones de más que hacen que un texto suene «hecho por IA». Las decisiones de estilo y de historia siguen en manos del autor.
 
 ```text
-Usá build-novel para desarrollar mi novela de fantasía.
-Haceme una pregunta relevante por turno. No conviertas la magia en un sistema técnico.
+Usá build-novel para desarrollar mi novela, desde la idea hasta el manuscrito revisado.
+Haceme una pregunta relevante por turno y conservá mi voz.
 ```
 
 ## Optional utilities

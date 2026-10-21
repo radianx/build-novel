@@ -1,12 +1,12 @@
 {
   "name": "build-novel",
-  "description": "Author-led novel development, revision, and publishing.",
+  "description": "Novels of any genre, with the author's voice and less formulaic, AI-sounding prose.",
   "owner": { "name": "Adrian Sbardella" },
   "plugins": [
     {
       "name": "build-novel",
       "source": "./",
-      "description": "Author-led novel development, revision, and publishing."
+      "description": "Novels of any genre, with the author's voice and less formulaic, AI-sounding prose."
     }
   ]
 }

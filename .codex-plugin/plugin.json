@@ -1,23 +1,23 @@
 {
   "name": "build-novel",
-  "version": "1.0.0",
-  "description": "Develop, revise, and prepare novels for publication while preserving the author's canon, voice, and creative freedom.",
+  "version": "1.0.1",
+  "description": "Develop, revise, and prepare novels of any genre for publication, preserving the author's voice and reducing formulaic, AI-sounding prose.",
   "author": { "name": "Adrian Sbardella", "url": "https://github.com/radianx" },
   "homepage": "https://github.com/radianx/build-novel",
   "repository": "https://github.com/radianx/build-novel",
   "license": "MIT",
-  "keywords": ["writing", "novel", "fiction", "fantasy", "editing", "publishing"],
+  "keywords": ["writing", "novel", "fiction", "creative-writing", "editing", "publishing"],
   "skills": "./skills/",
   "interface": {
     "displayName": "Build Novel",
-    "shortDescription": "Develop novels with your voice and canon intact",
-    "longDescription": "An author-led workflow for ideas, worldbuilding, outlines, drafting, revision, simulated reader panels, translation, and publication preparation. Supports literary experimentation and fantasy, including soft magic and deliberate ambiguity.",
+    "shortDescription": "Write novels of any genre with your own voice",
+    "longDescription": "An author-led workflow for novels and series of any genre, from first ideas through drafting, revision, simulated reader panels, translation, and publication preparation. Helps preserve distinctive voices and reduce generic phrasing, repetitive patterns, and over-explanation that can make prose feel AI-generated, while respecting deliberate literary choices.",
     "developerName": "Adrian Sbardella",
     "category": "Productivity",
     "capabilities": ["Instructions"],
     "websiteURL": "https://github.com/radianx/build-novel",
     "logo": "./assets/icon.png",
     "composerIcon": "./assets/icon.png",
-    "defaultPrompt": ["Help me develop a novel, asking one consequential question at a time."]
+    "defaultPrompt": ["Help me develop a novel, asking one consequential question at a time and preserving my voice."]
   }
 }
