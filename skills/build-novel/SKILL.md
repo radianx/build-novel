@@ -152,9 +152,9 @@ Treat simulated readers as diagnostic instruments, not substitutes for human rea
 
 Read [references/series-and-localization.md](references/series-and-localization.md) when the project spans multiple volumes or the author prepares another language edition. Freeze the source edition, preserve series-level canon, and validate reader experience across books rather than treating every volume or translation as isolated.
 
-## Prepare production artifacts
+## Plan publication and prepare production artifacts
 
-Read [references/production.md](references/production.md) only when assembling DOCX, PDF, print drafts, front matter, attachments, commercial metadata, Kindle covers, or paperback wraps.
+Read [references/production.md](references/production.md) when choosing a publication route or assembling DOCX, PDF, print drafts, front matter, attachments, commercial metadata, Kindle covers, or paperback wraps. Use its publication-strategy section for unresolved publishing choices; preserve decisions already made and keep a requested artifact export moving.
 
 Keep canonical prose, front matter, metadata, and production settings separate from generated files. Preserve a reproducible chapter order. Render and visually inspect generated documents; archive files opening successfully is not proof that pagination is correct. Validate no-bleed interiors, bleed interiors, digital PDFs, reflowable EPUBs, Kindle covers, and paperback wraps as distinct outputs.
 

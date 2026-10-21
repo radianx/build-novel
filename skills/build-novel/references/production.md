@@ -1,5 +1,18 @@
 # Production
 
+## Publication strategy
+
+When the author wants to decide how to publish, establish only what is needed to choose the route and scope of the edition. Reuse accepted decisions and ask one consequential unresolved question at a time. A request to export an already specified edition does not require a new strategy interview.
+
+- **Purpose and success:** distinguish personal fulfillment, sharing with a particular community, and commercial goals. Let the author define a satisfactory outcome; sales need not be the measure.
+- **Readers and reach:** identify who may value this work and how the author could reach them. Distinguish an intended readership from an existing audience supported by evidence. Genre labels, simulated-reader scores, and a store listing do not establish demand.
+- **Publication route:** compare a publisher-financed edition with self-publishing, with or without paid editorial services, when the choice is open. Consider funding, creative control, timing, distribution, and the work the author will undertake. Identify who pays, what a service quote includes, and who handles each remaining task. Do not rank routes as evidence of literary quality or guaranteed sales.
+- **Economics, when relevant:** use dated quotes and explicit assumptions for currency, quantities, sales channels, and any royalty basis. Include applicable editing, design, printing, commissions, shipping, promotion, fees, taxes, unsold stock, and the author's time. Compare scenarios on the same basis; distinguish revenue from net proceeds and direct sales from intermediary sales. Mark unknown costs and sales assumptions instead of inventing them. Verify current provider terms before relying on prices or percentages.
+
+Record accepted choices in `DECISIONS.md` or the project's existing equivalent; put resulting edition settings in `PRODUCTION.yaml`. Keep options and sales scenarios provisional. Positioning should describe the work honestly and preserve the author's literary goals.
+
+The purpose-before-route framing draws on [Autores de Argentina's publishing guide](https://autoresdeargentina.com/como-publicar-un-libro/), a commercial editorial-services source. The operational checks above are an adaptation; its illustrative prices and royalties are not maintained benchmarks for this skill.
+
 ## Source and output separation
 
 Keep Markdown or the author's chosen editable format canonical. Put generated DOCX, PDF, EPUB, cover proofs, and printer packages under `production/`. Do not copy-edit only the generated file and leave the source stale.
